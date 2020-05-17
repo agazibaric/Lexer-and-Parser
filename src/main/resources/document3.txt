@@ -1,0 +1,2 @@
+This is sample text.
+{$FOR i_ -1 100 5 $}

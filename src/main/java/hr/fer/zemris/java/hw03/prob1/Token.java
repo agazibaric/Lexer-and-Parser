@@ -1,0 +1,55 @@
+package hr.fer.zemris.java.hw03.prob1;
+
+/**
+ * Class represents token in lexical analysis.
+ * Token is lexical unit that groups one or more consecutive symbols from input text.
+ * 
+ * @author Ante Gazibarić
+ * @version 1.0
+ */
+public class Token {
+
+	/**
+	 * type of token
+	 */
+	private TokenType type;
+	/**
+	 * value that token represents
+	 */
+	private Object value;
+	
+	/**
+	 * Constructor for creating new <code>Token</code>.
+	 * 
+	 * @param type  <code>TokenType</code> type of token
+	 * @param value <code>Object</code> that token stores
+	 */
+	public Token(TokenType type, Object value) {
+		if (type == null)
+			throw new IllegalArgumentException("Token type must not be null");
+		
+		this.type = type;
+		this.value = value;
+	}
+	
+	/**
+	 * Method returns value that token contains.
+	 * 
+	 * @return <code>Object</code> value of token
+	 */
+	public Object getValue() {
+		return value;
+	}
+	
+	/**
+	 * Method returns token type.
+	 * 
+	 * @return <code>TokenType</code> type of this token.
+	 */
+	public TokenType getType() {
+		return type;
+	}
+	
+	
+	
+}

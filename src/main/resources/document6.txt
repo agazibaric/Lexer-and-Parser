@@ -1,0 +1,6 @@
+This is sample text.
+{$FOR i -1 100 5 $}
+	Now we have too many END tags
+{$END$}
+And too few FOR loops
+{$END$}

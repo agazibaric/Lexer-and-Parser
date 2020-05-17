@@ -1,0 +1,8 @@
+This is sample text.
+{$ FOR  asd_00 asd asd 1 $}
+	This is {$= i 11 * $}-th time this message is generated.
+{$END$}
+{ $ FOR iasd 10 2 1$}
+	sin({$=i 11.2 *$}^2) = {$= i i .2 * @sin "0.000" @decfmt $}
+{$END$}
+

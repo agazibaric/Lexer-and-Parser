@@ -1,0 +1,4 @@
+This is sample text.
+{$FOR 1 -1 100 5 $}
+	Here we have invalid syntax
+{$ $}

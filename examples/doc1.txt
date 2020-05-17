@@ -1,0 +1,11 @@
+This is . "sample" \ text.
+{$FOR i_0 -1 100 1 $}
+   This is {$= i 22.03 "Joe \"Long\" Smith" $}-th time this message is generated.
+{$END$}
+{$FOR 1 . 0 10 2 $}
+   sin({$= i $}^2) = {$= i 2.301 AG + 3 i * @sin "0.000" @decfmt $}
+   Nested FOR loops:
+   {$FoR var_123 "-5" 10 5 $}
+   End a for loop
+   {$END$}
+{$END$}

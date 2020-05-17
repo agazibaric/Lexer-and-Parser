@@ -1,0 +1,2 @@
+This is sample text.
+{$=i "Joe \"Long\" Smith" * @sin $}
